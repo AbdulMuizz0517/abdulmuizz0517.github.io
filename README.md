@@ -17,7 +17,6 @@ This project highlights my technical and creative skills, featuring sections lik
 - Social Links (LinkedIn, GitHub, Behance)
 
 ## 🛠️ Technologies Used
-- HTML5
-- CSS3 (Dark theme with CSS Variables)
-- JavaScript (Vanilla JS for interactivity)
+- CSS3 
+- JavaScript 
 - Google Fonts (Poppins)
