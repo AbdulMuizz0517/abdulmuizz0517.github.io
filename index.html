@@ -409,6 +409,17 @@
             background-position: center;
         }
 
+        .project-item[data-category="uiux"] .project-img {
+            cursor: pointer;
+        }
+
+        .projects-note {
+            text-align: center;
+            color: var(--muted-color);
+            margin: -20px 0 25px;
+            font-size: 0.95rem;
+        }
+
         .project-overlay {
             position: absolute;
             top: 0;
@@ -438,6 +449,11 @@
         .project-overlay p {
             color: var(--light-color);
             margin-bottom: 20px;
+        }
+
+        .project-item[data-category="graphic"] .project-overlay p,
+        .project-item[data-category="photo"] .project-overlay p {
+            margin-bottom: 0;
         }
 
         .project-links {
@@ -758,7 +774,7 @@
             <div class="education-content">
                 <div class="education-item">
                     <h3>FAST-NUCES</h3>
-                    <h4>Bachelor's in Computer Science (In Progress)</h4>
+                    <h4>Bachelor's in Computer Science</h4>
                     <p>Developing strong skills in programming, software development, and system design. Focusing on core computer science principles and practical applications of technology.</p>
                 </div>
                 <div class="education-item">
@@ -882,6 +898,7 @@
     <section id="projects" class="projects">
         <div class="container">
             <h2 class="section-title">My Projects</h2>
+            <p class="projects-note">Click any UI/UX project image or the button to open the Figma file.</p>
             <div class="project-filters">
                 <button class="filter-btn active" data-filter="all">All</button>
                 <button class="filter-btn" data-filter="uiux">UI/UX Design</button>
@@ -895,17 +912,17 @@
                         <h3>AI Learning App</h3>
                         <p>UI/UX Design on Figma</p>
                         <div class="project-links">
-                            <a href="#" class="project-link">View Project</a>
+                            <a href="https://www.figma.com/design/ArLju3Riq1oWXdYiUyo2nJ/AI-Learning-App?node-id=0-1&t=gRAOFU70lWwcYLN8-1" class="project-link" target="_blank" rel="noopener noreferrer">View Figma</a>
                         </div>
                     </div>
                 </div>
                 <div class="project-item" data-category="uiux">
-                    <div class="project-img" style="background-image: url('Ai\ Post\ Generator.png');"></div>
+                    <div class="project-img" style="background-image: url('Zafrani.png');"></div>
                     <div class="project-overlay">
-                        <h3>AI Post Generator</h3>
+                        <h3>Zafrani</h3>
                         <p>UI/UX Design on Figma</p>
                         <div class="project-links">
-                            <a href="#" class="project-link">View Project</a>
+                            <a href="https://www.figma.com/design/Jdvvggd8CqWArLbtyVLqN8/Zafrani?node-id=0-1&t=OFjbYhPHw7IK7rCt-1" class="project-link" target="_blank" rel="noopener noreferrer">View Figma</a>
                         </div>
                     </div>
                 </div>
@@ -915,7 +932,7 @@
                         <h3>AutoPro</h3>
                         <p>UI/UX Design on Figma</p>
                         <div class="project-links">
-                            <a href="#" class="project-link">View Project</a>
+                            <a href="https://www.figma.com/design/v1sBLQdtxPC5I878vA2ebZ/AutoPro?node-id=0-1&t=m9XBV8UoYLIseORx-1" class="project-link" target="_blank" rel="noopener noreferrer">View Figma</a>
                         </div>
                     </div>
                 </div>
@@ -925,7 +942,7 @@
                         <h3>RetroHood</h3>
                         <p>UI/UX Design on Figma</p>
                         <div class="project-links">
-                            <a href="#" class="project-link">View Project</a>
+                            <a href="https://www.figma.com/design/lVHKMw5qnHD2z6FdfkQPbp/RetroHood-Final?node-id=0-1&t=HURxUZ2BhnDNvfM7-1" class="project-link" target="_blank" rel="noopener noreferrer">View Figma</a>
                         </div>
                     </div>
                 </div>
@@ -935,7 +952,7 @@
                         <h3>PetBazaar</h3>
                         <p>UI/UX Design on Figma</p>
                         <div class="project-links">
-                            <a href="#" class="project-link">View Project</a>
+                            <a href="https://www.figma.com/design/ogYo3TnqGIYis5GApMVkFH/Pet-Bazaar?node-id=0-1&t=71Ps3q3A8fafx8ZZ-1" class="project-link" target="_blank" rel="noopener noreferrer">View Figma</a>
                         </div>
                     </div>
                 </div>
@@ -945,17 +962,47 @@
                         <h3>Serac</h3>
                         <p>UI/UX Design on Figma</p>
                         <div class="project-links">
-                            <a href="#" class="project-link">View Project</a>
+                            <a href="https://www.figma.com/design/MRswik6iQEpNFhqHsNERbj/Serac-Final?node-id=0-1&t=ldbbeBxLSApP4zYV-1" class="project-link" target="_blank" rel="noopener noreferrer">View Figma</a>
                         </div>
                     </div>
                 </div>
                 <div class="project-item" data-category="uiux">
                     <div class="project-img" style="background-image: url('Security\ System.png');"></div>
                     <div class="project-overlay">
-                        <h3>Security System Project</h3>
+                        <h3>Security System</h3>
                         <p>UI/UX Design on Figma</p>
                         <div class="project-links">
-                            <a href="#" class="project-link">View Project</a>
+                            <a href="https://www.figma.com/design/Z6TR13me3n1HBjYx634Q5X/Security-Project?node-id=0-1&t=lsFQyZfzp0hw1Cql-1" class="project-link" target="_blank" rel="noopener noreferrer">View Figma</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-item" data-category="uiux">
+                    <div class="project-img" style="background-image: url('BidMuse.png');"></div>
+                    <div class="project-overlay">
+                        <h3>BidMuse</h3>
+                        <p>UI/UX Design on Figma</p>
+                        <div class="project-links">
+                            <a href="https://www.figma.com/design/XRzJwEnn1cFvIGX9zQBJHn/BidMuse?node-id=0-1&t=u7b2ZjyDdkHtwuXh-1" class="project-link" target="_blank" rel="noopener noreferrer">View Figma</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-item" data-category="uiux">
+                    <div class="project-img" style="background-image: url('Storyteller, Task Manager, Life Saver.png');"></div>
+                    <div class="project-overlay">
+                        <h3>Storyteller, Task Manager, Life Saver</h3>
+                        <p>UI/UX Assignment Project on Figma</p>
+                        <div class="project-links">
+                            <a href="https://www.figma.com/design/AVYt3CbKdmZR5PALprvnkk/Assignment-Project?node-id=0-1&t=ryYfMXnQ2UxpDGkc-1" class="project-link" target="_blank" rel="noopener noreferrer">View Figma</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-item" data-category="uiux">
+                    <div class="project-img" style="background-image: url('BookStore.png');"></div>
+                    <div class="project-overlay">
+                        <h3>Book Store</h3>
+                        <p>UI/UX Design on Figma</p>
+                        <div class="project-links">
+                            <a href="https://www.figma.com/design/RkQxjTzfeBJGPmoKbZl1HY/Book-Store?node-id=0-1&t=F07dZKftekINhUga-1" class="project-link" target="_blank" rel="noopener noreferrer">View Figma</a>
                         </div>
                     </div>
                 </div>
@@ -964,9 +1011,6 @@
                     <div class="project-overlay">
                         <h3>SystemCity</h3>
                         <p>Instagram Page Management & Design</p>
-                        <div class="project-links">
-                            <a href="#" class="project-link">View Project</a>
-                        </div>
                     </div>
                 </div>
                 <div class="project-item" data-category="graphic">
@@ -974,9 +1018,6 @@
                     <div class="project-overlay">
                         <h3>Couio Brand Logo</h3>
                         <p>Logo Design</p>
-                        <div class="project-links">
-                            <a href="#" class="project-link">View Project</a>
-                        </div>
                     </div>
                 </div>
                 <div class="project-item" data-category="photo">
@@ -984,9 +1025,6 @@
                     <div class="project-overlay">
                         <h3>OldSkoolDripz</h3>
                         <p>Product Photography & Videography</p>
-                        <div class="project-links">
-                            <a href="#" class="project-link">View Gallery</a>
-                        </div>
                     </div>
                 </div>
                 <div class="project-item" data-category="photo">
@@ -994,9 +1032,6 @@
                     <div class="project-overlay">
                         <h3>Lumi Clothing</h3>
                         <p>Fashion Photography & Reels</p>
-                        <div class="project-links">
-                            <a href="#" class="project-link">View Gallery</a>
-                        </div>
                     </div>
                 </div>
                 <div class="project-item" data-category="photo">
@@ -1004,9 +1039,6 @@
                     <div class="project-overlay">
                         <h3>Javed Stationers</h3>
                         <p>Product Photography</p>
-                        <div class="project-links">
-                            <a href="#" class="project-link">View Gallery</a>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -1132,6 +1164,22 @@
             // Project filtering
             const filterBtns = document.querySelectorAll('.filter-btn');
             const projectItems = document.querySelectorAll('.project-item');
+
+            // Make UI/UX project images open the same Figma link as the card button.
+            const uiuxProjectItems = document.querySelectorAll('.project-item[data-category="uiux"]');
+            uiuxProjectItems.forEach(item => {
+                const image = item.querySelector('.project-img');
+                const figmaLink = item.querySelector('.project-link');
+
+                if (image && figmaLink) {
+                    image.addEventListener('click', function() {
+                        const href = figmaLink.getAttribute('href');
+                        if (href && href !== '#') {
+                            window.open(href, '_blank', 'noopener,noreferrer');
+                        }
+                    });
+                }
+            });
             
             filterBtns.forEach(btn => {
                 btn.addEventListener('click', function() {
